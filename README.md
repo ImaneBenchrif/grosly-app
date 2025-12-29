@@ -1,20 +1,20 @@
-#  Grosly - Grocery Delivery Mobile App
+# Grosly - Grocery Delivery Mobile App
 
 A modern Flutter application for grocery delivery with a clean UI and seamless user experience.
 
-##  Features
+## Features
 
--  User authentication (Login/Register)
--  Product browsing by categories
--  Product search and filtering
--  Shopping cart management
--  AI-powered chatbot assistant
--  Order checkout and tracking
--  User profile management
--  Discount and promo pricing
--  Cash on delivery payment
+- User authentication (Login/Register)
+- Product browsing by categories
+- Product search and filtering
+- Shopping cart management
+- AI-powered chatbot assistant
+- Order checkout and tracking
+- User profile management
+- Discount and promo pricing
+- Cash on delivery payment
 
-##  Technologies
+## Technologies
 
 - **Flutter** 3.x
 - **Dart**
@@ -23,11 +23,18 @@ A modern Flutter application for grocery delivery with a clean UI and seamless u
 - **FastAPI Backend** (REST API)
 - **PostgreSQL** (Database)
 
-##  Screenshots
+## Screenshots
 
-[Add screenshots here]
+### Home Screen
+![Home Screen](uploads/1.png)
 
-##  Getting Started
+### Product Details
+![Product Details](uploads/2.png)
+
+### Categories View
+![Categories](uploads/3.png)
+
+## Getting Started
 
 ### Prerequisites
 
@@ -50,8 +57,15 @@ flutter pub get
 ```
 
 3. Configure the API endpoint in `lib/client.dart`
+
+For **Android Emulator**:
 ```dart
-baseUrl: "http://YOUR_BACKEND_IP:8000/grosly_api_office"
+baseUrl: "http://10.0.2.2:8000/grosly_api_office"
+```
+
+For **Physical Device** (replace with your computer's IP):
+```dart
+baseUrl: "http://192.168.x.x:8000/grosly_api_office"
 ```
 
 4. Run the app
@@ -59,7 +73,7 @@ baseUrl: "http://YOUR_BACKEND_IP:8000/grosly_api_office"
 flutter run
 ```
 
-##  Project Structure
+## Project Structure
 ```
 lib/
 ├── templates/
@@ -79,17 +93,18 @@ lib/
 └── main.dart             # App Entry Point
 ```
 
-##  Backend Repository
+## Backend Repository
 
-[Grosly Backend API](https://github.com/ImaneBenchrif/grosly-backend) *(coming soon)*
+[Grosly Backend API](https://github.com/ImaneBenchrif/grosly_backend)
 
-##  Author
+## Authors
 
-**Imane Benchrif** **Imane Amaaz**
+**Imane Benchrif**
 - GitHub: [@ImaneBenchrif](https://github.com/ImaneBenchrif)
+
+**Imane Amaaz**
 - GitHub: [@ImaneAmaaz](https://github.com/Imaneamaaz)
+
 ## License
 
 This project is for educational purposes.
-
----
