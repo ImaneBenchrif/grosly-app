@@ -26,7 +26,7 @@ A modern Flutter application for grocery delivery with a clean UI and seamless u
 ## Screenshots
 
 <p align="center">
-  <img src="uploads/Image_UI.png" width="700" alt="App Screenshots" />
+  <img src="uploads/Image_UI.png" width="900" alt="App Screenshots" />
 </p>
 
 ## Getting Started
