@@ -20,7 +20,6 @@
 - **AI Recipe Assistant** - Get personalized Moroccan recipe suggestions based on available ingredients
 - **Real-time Cart Management** - Seamless shopping cart with instant updates
 - **Flexible Checkout** - Multiple payment options including cash on delivery
-- **Order Tracking** - Monitor your delivery in real-time
 - **User Profiles** - Manage preferences and delivery addresses
 
 ### Business Features
