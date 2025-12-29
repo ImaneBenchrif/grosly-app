@@ -1,105 +1,156 @@
-# Grosly - Grocery Delivery Mobile App
+# Grosly - Smart E-Grocery Platform
 
-A modern Flutter application for grocery delivery with a clean UI and seamless user experience.
+> *A smart e-grocery app that bridges the gap between your meal plan and a full fridge by delivering exactly what your recipes require.*
 
-## Features
+## Mission Statement
 
-- User authentication (Login/Register)
-- Product browsing by categories
-- Product search and filtering
-- Shopping cart management
-- AI-powered chatbot assistant
-- Order checkout and tracking
-- User profile management
-- Discount and promo pricing
-- Cash on delivery payment
+**"To make grocery shopping effortless by combining AI meal planning with instant delivery of fresh, quality products."**
 
-## Technologies
+## Vision
 
-- **Flutter** 3.x
-- **Dart**
-- **Provider** (State Management)
-- **Dio** (HTTP Client)
-- **FastAPI Backend** (REST API)
-- **PostgreSQL** (Database)
-  
+**"To build Morocco's leading smart grocery platform designed around everyday life."**
+
+---
+
+## About Grosly
+
+Grosly is a modern Flutter-based grocery delivery application that revolutionizes the way Moroccans shop for food. By integrating AI-powered recipe suggestions with real-time product availability, we help users plan meals and receive instant delivery of fresh, quality ingredients.
+
+## Key Features
+
+### Customer Experience
+- **Smart Authentication** - Secure login and registration system
+- **Intelligent Product Discovery** - Browse by categories with advanced search and filtering
+- **AI Recipe Assistant** - Get personalized Moroccan recipe suggestions based on available ingredients
+- **Real-time Cart Management** - Seamless shopping cart with instant updates
+- **Flexible Checkout** - Multiple payment options including cash on delivery
+- **Order Tracking** - Monitor your delivery in real-time
+- **User Profiles** - Manage preferences and delivery addresses
+
+### Business Features
+- Dynamic pricing with promotional discounts
+- Category-based product organization
+- Stock management integration
+- Secure payment processing
+
+## Technology Stack
+
+### Frontend
+- **Flutter** 3.x - Cross-platform mobile framework
+- **Dart** - Programming language
+- **Provider** - State management solution
+- **Dio** - Advanced HTTP client
+
+### Backend
+- **FastAPI** - High-performance REST API
+- **PostgreSQL** - Relational database
+- **JWT** - Secure authentication
+- **AI Integration** - Recipe generation engine
+
 ## Screenshots
 
 <p align="center">
-  <img src="uploads/Image_UI.png" width="900" alt="App Screenshots" />
+  <img src="uploads/Image_UI.png" width="900" alt="Grosly App Interface - Home, Products, Categories & AI Chatbot" />
 </p>
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
+Ensure you have the following installed:
 - Flutter SDK 3.x or higher
 - Dart SDK
-- Android Studio / VS Code
+- Android Studio or VS Code
 - Android Emulator or Physical Device
 
 ### Installation
 
-1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/ImaneBenchrif/grosly-app.git
 cd grosly-app
 ```
 
-2. Install dependencies
+2. **Install dependencies**
 ```bash
 flutter pub get
 ```
 
-3. Configure the API endpoint in `lib/client.dart`
+3. **Configure API endpoint**
 
-For **Android Emulator**:
+Edit `lib/client.dart`:
+
+**For Android Emulator:**
 ```dart
-baseUrl: "http://10.0.2.2:8000/grosly_api_office"
+baseUrl: "http://10.0.2.2:8000"
 ```
 
-For **Physical Device** (replace with your computer's IP):
+**For Physical Device:**
 ```dart
-baseUrl: "http://192.168.x.x:8000/grosly_api_office"
+baseUrl: "http://YOUR_COMPUTER_IP:8000"
 ```
+*Replace `YOUR_COMPUTER_IP` with your actual local IP address*
 
-4. Run the app
+4. **Run the application**
 ```bash
 flutter run
 ```
 
-## Project Structure
+---
+
+## Project Architecture
 ```
 lib/
 ├── templates/
-│   ├── partie_one/        # Onboarding & Authentication
-│   │   ├── connexion.dart
-│   │   └── onboarding.dart
-│   ├── partie_two/        # Main App Pages
-│   │   ├── home.dart
-│   │   ├── basket_page.dart
-│   │   ├── details_page.dart
-│   │   ├── checkout_page.dart
-│   │   ├── profile_page.dart
-│   │   └── bot_page.dart
-│   └── providers/         # State Management
+│   ├── partie_one/              # Authentication Flow
+│   │   ├── connexion.dart       # Login/Register
+│   │   └── onboarding.dart      # App introduction
+│   ├── partie_two/              # Core Application
+│   │   ├── home.dart            # Main dashboard
+│   │   ├── basket_page.dart     # Shopping cart
+│   │   ├── details_page.dart    # Product details
+│   │   ├── checkout_page.dart   # Order confirmation
+│   │   ├── profile_page.dart    # User settings
+│   │   └── bot_page.dart        # AI Recipe Assistant
+│   └── providers/               # State Management
 │       └── global_variables.dart
-├── client.dart            # API Client (Dio)
-└── main.dart             # App Entry Point
+├── client.dart                  # API Client (Dio)
+└── main.dart                    # Application Entry Point
 ```
 
-## Backend Repository
+---
 
-[Grosly Backend API](https://github.com/ImaneBenchrif/grosly_backend)
+## Related Repositories
 
-## Authors
+**Backend API**: [grosly_backend](https://github.com/ImaneBenchrif/grosly_backend)  
+*FastAPI-powered REST API with PostgreSQL database*
 
-**Imane Benchrif**
-- GitHub: [@ImaneBenchrif](https://github.com/ImaneBenchrif)
+---
 
-**Imane Amaaz**
-- GitHub: [@ImaneAmaaz](https://github.com/Imaneamaaz)
+## Development Team
+
+**Imane Benchrif**  
+GitHub: [@ImaneBenchrif](https://github.com/ImaneBenchrif)
+
+**Imane Amaaz**  
+GitHub: [@ImaneAmaaz](https://github.com/Imaneamaaz)
+
+---
 
 ## License
 
-This project is for educational purposes.
+This project is developed for educational purposes as part of an academic program.
+
+---
+
+## Contact & Support
+
+For questions, feature requests, or bug reports, please open an issue on GitHub.
+
+---
+
+<p align="center">
+  <em>Made with ❤️ for Morocco's grocery shoppers</em>
+</p>
