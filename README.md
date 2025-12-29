@@ -1,4 +1,4 @@
-# 🛒 Grosly - Grocery Delivery Mobile App
+#  Grosly - Grocery Delivery Mobile App
 
 A modern Flutter application for grocery delivery with a clean UI and seamless user experience.
 
@@ -87,11 +87,9 @@ lib/
 
 **Imane Benchrif** **Imane Amaaz**
 - GitHub: [@ImaneBenchrif](https://github.com/ImaneBenchrif)
-
+- GitHub: [@ImaneAmaaz](https://github.com/Imaneamaaz)
 ## License
 
 This project is for educational purposes.
 
 ---
-
-**⭐ Star this repository if you found it helpful!**
