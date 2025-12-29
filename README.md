@@ -22,14 +22,11 @@ A modern Flutter application for grocery delivery with a clean UI and seamless u
 - **Dio** (HTTP Client)
 - **FastAPI Backend** (REST API)
 - **PostgreSQL** (Database)
-
+  
 ## Screenshots
 
 <p align="center">
-  <img src="uploads/image1.png" width="200" alt="Home Screen" />
-  <img src="uploads/image2.png" width="200" alt="Product Details" />
-  <img src="uploads/image3.png" width="200" alt="Categories" />
-  <img src="uploads/image4.png" width="200" alt="Chatbot" />
+  <img src="uploads/Image_UI.png" width="700" alt="App Screenshots" />
 </p>
 
 ## Getting Started
