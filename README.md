@@ -4,11 +4,11 @@
 
 ## Mission Statement
 
-**"To make grocery shopping effortless by combining AI meal planning with instant delivery of fresh, quality products."**
+**To make grocery shopping effortless by combining AI meal planning with instant delivery of fresh, quality products.**
 
 ## Vision
 
-**"To build Morocco's leading smart grocery platform designed around everyday life."**
+**To build Morocco's leading smart grocery platform designed around everyday life.**
 
 ---
 
