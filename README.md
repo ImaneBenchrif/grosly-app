@@ -25,14 +25,11 @@ A modern Flutter application for grocery delivery with a clean UI and seamless u
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](uploads/1.png)
-
-### Product Details
-![Product Details](uploads/2.png)
-
-### Categories View
-![Categories](uploads/3.png)
+<p align="center">
+  <img src="uploads/1.png" width="250" alt="Home Screen" />
+  <img src="uploads/2.png" width="250" alt="Product Details" />
+  <img src="uploads/3.png" width="250" alt="Categories" />
+</p>
 
 ## Getting Started
 
