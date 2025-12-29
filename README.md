@@ -12,10 +12,6 @@
 
 ---
 
-## About Grosly
-
-Grosly is a modern Flutter-based grocery delivery application that revolutionizes the way Moroccans shop for food. By integrating AI-powered recipe suggestions with real-time product availability, we help users plan meals and receive instant delivery of fresh, quality ingredients.
-
 ## Key Features
 
 ### Customer Experience
